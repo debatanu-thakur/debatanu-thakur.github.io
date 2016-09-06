@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatibile" content="IE=Edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_800.css" media="screen and (max-width:800px)">
+    <link rel="stylesheet" href="css/style_500.css" media="screen and (max-width:500px)">
+    <style>
+    * {
+        border: 1px solid red;
+    }
+    </style>
+</head>
+<body class="container">
+    <header class="header-style">
+        <figure class="logo-container">
+        <!--Logo on the left  - svg image-->
+        <img src="img/logo.svg" alt="Debu's Logo" class="image-logo">
+        </figure>
+        <!-- My details-->
+        <section class="text-upper text-align header-name">
+            <h1>Debatanu Thakur</h1>
+            <h3>Front-end ninja</h3>
+        </section>
+    </header>
+    <main>
+               <!-- This contains information about the type of user information you will find here -->
+                <picture >
+                    <source srcset="img/body-small_300.jpg 300w" media="(max-width: 450px)">
+                    <source srcset="img/body-medium_500.jpg 500w" media="(max-width: 850px)">
+                    <source srcset="img/body-large_800.jpg 800w">
+                    <source srcset="img/body-medium.jpg">
+                    <img "img/body_medium.jpg" alt="This is the body image" class="picture">
+                </picture>
+            <!-- Section containing my featured work -->
+
+
+                <article class="section-features">
+                <h3 class="text-capital feature-color">featured work</h3>
+                    <figure class="figure-work featured-work">
+                        <img src="http://placehold.it/250x150" alt="My first app built in this course, front-end development. Here i designed my first html page from design markup">
+                        <figcaption class="details">
+                        <p class="text-upper caption">mockup to article</p>
+                        <a href="https://github.com/debatanu-thakur/mockup-to-article">https://github.com/debatanu-thakur/mockup-to-article</a>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="figure-work featured-work">
+                        <img src="http://placehold.it/250x150" alt="This is an even more fun project where i design animal trading card using css">
+                        <figcaption class="details">
+                        <p class="text-upper caption">animal trading card</p>
+                        <a href="https://github.com/debatanu-thakur/animal-trading-card">https://github.com/debatanu-thakur/animal-trading-card</a>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="figure-work featured-work">
+                        <img src="http://placehold.it/250x150" alt="My recent project where i designed my portfolio using all the concepts learned in responsive web designing">
+                        <figcaption class="details">
+                        <p class="text-upper caption">My Portfolio</p>
+                        <a href="#">Sample Link</a>
+                        </figcaption>
+                    </figure>
+
+                </article>
+
+        </main>
+
+</body>
+</html>

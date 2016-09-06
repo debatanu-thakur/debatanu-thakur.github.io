@@ -1,0 +1,117 @@
+/*
+* Setting the border box
+* for all elements
+*
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/*
+*
+*   Common CSS features
+*
+*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.top-margin {
+    margin-top: 10px;
+}
+
+.bottom-margin {
+    margin-bottom: 10px;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-align {
+    text-align: right;
+}
+
+/*
+*
+*   Header specific css
+*
+*/
+
+/*  <header> css
+*/
+.header-style {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*  <figure>
+*   logo container
+*/
+.logo-container {
+    width: 20%;
+    margin: 0;
+    text-align: center;
+}
+
+/*  <img> logo
+*/
+.image-logo {
+    width: 100%;
+
+}
+
+/*  <h1>, <h3>
+*   portfolio name
+*/
+.header-name {
+    width: 80%;
+    display: inline-block;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+/**
+*   Media Query 800px
+*
+*/
+
+@media screen and (max-width:850px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+}
+
+/**
+*   Media Query 450px
+*
+*/
+
+@media screen and (max-width:450px) {
+    .logo-container {
+        position: absolute;
+        bottom: 0;
+        width: 25%;
+        margin-left: calc(35%);
+    }
+
+    .text-align {
+        text-align: center;
+    }
+}
+
