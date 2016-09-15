@@ -22,7 +22,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -94,6 +94,17 @@ h3 {
     margin: 0;
     padding: 0;
 }
+
+/**
+*
+*  Main image, body css
+*
+*/
+
+.body-image {
+
+}
+
 /**
 *   Media Query 800px
 *
@@ -105,6 +116,11 @@ h3 {
         margin: 0;
     }
 
+    picture {
+      display: block;
+      text-align: center;
+      padding-left: calc((100% - 500px) / 2);
+    }
 }
 
 /**
@@ -114,13 +130,24 @@ h3 {
 
 @media screen and (max-width:450px) {
     .logo-container {
-        position: absolute;
-        bottom: 0;
-        width: 25%;
-        margin-left: calc(35%);
+      order : 1;
+      margin: auto;
+    }
+
+    .header-name {
+      width: 100%;
+    }
+
+    .header-name h1 {
+      font-size: 2em;
     }
 
     .text-align {
         text-align: center;
     }
+
+    picture {
+      padding-left: calc((100% - 300px) / 2);
+    }
+
 }
