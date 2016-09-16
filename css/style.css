@@ -22,7 +22,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
 }
 
@@ -101,8 +101,10 @@ h3 {
 *
 */
 
-.body-image {
-
+picture {
+  display: block;
+  text-align: center;
+  padding-left: calc((100% - 815px) / 2);
 }
 
 /**
@@ -117,9 +119,7 @@ h3 {
     }
 
     picture {
-      display: block;
-      text-align: center;
-      padding-left: calc((100% - 500px) / 2);
+      padding-left: calc((100% - 515px) / 2);
     }
 }
 
@@ -147,7 +147,7 @@ h3 {
     }
 
     picture {
-      padding-left: calc((100% - 300px) / 2);
+      padding-left: calc((100% - 315px) / 2);
     }
 
 }
