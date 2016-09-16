@@ -9,9 +9,9 @@ This project is a responsive design of a web application that contains my portfo
 $ git clone https://github.com/debatanu-thakur/portfolio-design.git
 ```
   2. Getting in the cloned folder
-  ```sh
+```sh
   $ cd portfolio-design
-  ```
+```
   3. Open index.html in browser
 
 ## License
