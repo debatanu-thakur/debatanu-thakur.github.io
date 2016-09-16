@@ -11,7 +11,7 @@
 body {
     line-height: 1.5;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 /*
@@ -88,16 +88,16 @@ body {
     color: #2d3c49;
 }
 
-.header-name h1 {
+.header-name-h1 {
     font-weight: 300;
     font-size: 52px;
 }
 
-.header-name h3 {
+.header-name-h3 {
     font-weight: 700;
 }
-h1,
-h3 {
+
+.no-pad-marg {
     margin: 0;
     padding: 0;
 }
@@ -109,9 +109,9 @@ h3 {
 */
 
 .picture {
-  display: block;
-  text-align: center;
-  padding-left: calc((100% - 815px) / 2);
+    display: block;
+    text-align: center;
+    padding-left: calc((100% - 815px) / 2);
 }
 
 /**
@@ -119,11 +119,11 @@ h3 {
 *
 */
 .text-capital {
-  text-transform: capitalize;
+    text-transform: capitalize;
 }
 
 .feature-color {
-  color: #7d97ad;
+    color: #7d97ad;
 }
 
 .feature-text {
@@ -150,11 +150,12 @@ h3 {
 }
 
 .text-upper {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .caption {
-  font-weight: 700;
+    font-weight: 700;
+    font-size: 1.17em;
 }
 
 .section-features {
