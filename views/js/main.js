@@ -542,7 +542,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
   var movEle = document.getElementById("movingPizzas1");
-  var pizzaCount = +(window.innerHeight)/s * cols;
+  var pizzaCount = Math.ceil(+(window.innerHeight)/s) * cols;
   var elem;
   for (var i = 0; i < pizzaCount; i++) {
     elem = document.createElement('img');
