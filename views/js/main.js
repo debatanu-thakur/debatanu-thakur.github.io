@@ -409,13 +409,13 @@ var resizePizzas = function(size) {
     switch(size) {
       case "1":
          type = "Small";
-        return;
+        break;
       case "2":
         type = "Medium";
-        return;
+        break;
       case "3":
         type = "Large";
-        return;
+        break;
       default:
         console.log("bug in changeSliderLabel");
         type = 'bug in changeSliderLabel';
