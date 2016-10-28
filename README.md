@@ -1,2 +1,3 @@
 ## Website Performance Optimization portfolio project
-Trying to improve the performance of this website
+
+The project is an optimized version of the Udacity performance optimization project - [frontend-nanodegree-mobile-portfolio](https://github.com/udacity/frontend-nanodegree-mobile-portfolio).
