@@ -14,19 +14,18 @@ a.mdl-button {
   padding: 0 6px;
   text-transform: none;
 }
-a.booking {
-  background: #003580;
+
+a.aws {
+  background: #fff;
   font-style: normal;
+  font-weight: 400;
+  font-size: large;
+  font-family: AmazonEmber,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
 a.startalk {
   background: #FF0000;
   color: white;
-}
-a.mdl-button .my-booking {
-  color: #ffffff;
-}
-a.mdl-button .my-booking-com {
-  color: #00bfff;
 }
 
 .my-body .mdl-layout-title {
